@@ -1,0 +1,6 @@
+@echo off
+cd /d %~dp0
+echo Building production version...
+call npm run build
+echo Starting server...
+node server.js 
